@@ -79,11 +79,75 @@ header h1{
     margin: 32px;
 }
 
-.forms{
+.oneforms{
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: row;
     margin-top: 32px;
+    width: 100%;
     border-radius: 20px;
     background-color: blanchedalmond;
+}
+.oneforms h4{
+    font-size: 1.5rem;
+}
+
+.form{
+    display: flex;;
+    height: 80%;
+    flex-direction: column;
+    margin-right: 32px;
+    align-content: center;
+
+}
+
+.form-align{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0 0 0px;
+}
+
+.text-form{
+    display: flex;
+    justify-content: flex-start;
+}
+.fnome{
+    display: flex;
+    flex-direction: column;
+}
+.fnome input{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    height: 24px;
+}
+
+.twoform{
+    display: flex;
+    flex-direction: row;
+}
+.form-org{
+    display: flex;
+    flex-direction: row;
+}
+
+.twoform input{
+    width: 96px;
+    border-radius: 8px;
+    height: 24px;
+}
+.twoform1 input{
+    display: flex;
+    flex-direction: row;
+    margin-right: 32px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.twoform2 input{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-size: 1.5rem;
 }
